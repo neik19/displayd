@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(39, 42, 54);
+    color: aliceblue;
+}
+
+nav{
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    width: 100%;
+    padding: 0.4rem 2%;          
+    background: rgb(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo{
+    display: flex;               
+    align-items: center;
+    gap: 0.6rem;
+    margin-right: auto;
+}
+
+.logo img{
+    height: 80px;               
+}
+
+.logo h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(238, 243, 243);
+    letter-spacing: 1px;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(238, 243, 243);
+    letter-spacing: 1px;
+    margin-right: auto;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 4rem;                   
+    margin-right: auto;
+}
+
+.nav-links li a{
+    display: inline-block;       
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    transition: 0.3s;
+}
+.nav-links li a:hover{
+    color: aqua;
+    text-shadow: 0 0 10px rgb(66, 120, 128);
+}
+
+.btns{
+    display: flex;
+}
+.btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    background: rgb(92, 138, 190);
+    color: rgb(37, 34, 34);
+    box-shadow: 0 0 15px rgb(92, 138, 190);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: rgb(69, 199, 238);
+    box-shadow: 0 0 25px rgb(66, 217, 255);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;               
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-right: 0;            
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 0;            
+}
+
+.search{
+    flex: 1;                     
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    color: aliceblue;
+    font-size: 1rem;
+    outline: none;
+}
+.search:focus{
+    border-color: rgb(92, 138, 190);
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;             
+    background: rgb(92, 138, 190);
+    color: rgb(37, 34, 34);
+    font-weight: 700;
+    text-decoration: none;
+
+    display: flex;                   
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+}
+.profile:hover{
+    box-shadow: 0 0 15px rgb(92, 138, 190);
+}
